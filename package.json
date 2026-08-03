@@ -1,0 +1,42 @@
+{
+  "name": "car-doctor-pro",
+  "version": "0.1.0",
+  "private": true,
+  "description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "homepage": "https://github.com/aponanwar/car-doctor-pro#readme",
+  "bugs": {
+    "url": "https://github.com/aponanwar/car-doctor-pro/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aponanwar/car-doctor-pro.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "mongodb": "^7.5.0",
+    "mongoose": "^9.9.1",
+    "next": "16.2.12",
+    "next-auth": "^4.24.15",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-icons": "^5.7.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "babel-plugin-react-compiler": "1.0.0",
+    "daisyui": "^5.7.8",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.12",
+    "tailwindcss": "^4"
+  }
+}
